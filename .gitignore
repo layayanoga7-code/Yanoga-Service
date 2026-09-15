@@ -1,0 +1,34 @@
+# Workspace and local runtime data
+.auth.json
+*.json
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+*.db
+*.db-shm
+*.db-wal
+*.log
+*.lock
+cap_sid
+installation_id
+models_cache.json
+session_index.jsonl
+config.toml
+.php-preview-router.php
+.sandbox/
+.sandbox-bin/
+.sandbox-secrets/
+.sandbox_migration
+.tmp/
+cache/
+plugins/
+skills/
+sessions/
+thread-writer-locks/
+tmp/
+
+# Keep the website source files
+!.gitignore
+!index.html
+!style.css
+!app.js
